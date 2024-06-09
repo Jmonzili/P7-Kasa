@@ -2,15 +2,16 @@
   position: relative;
   background-position: center;
   background-size: cover;
-  max-width: 90vw;
+  max-width: 100%;
   padding-inline: 2rem;
-  background-image: url("https://unsplash.it/1920/1080");
+  background-image: url("background-1.png");
   height: 223px;
   margin: auto;
   border-radius: 2rem;
   display: grid;
   place-items: center;
   color: white;
+  margin-bottom: 2rem;
 }
 
 /* .banner::before {

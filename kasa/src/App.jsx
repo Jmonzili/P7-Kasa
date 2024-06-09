@@ -1,13 +1,17 @@
 import './App.css'
-import Banner from './components/Banner'
+// import ApartmentGrid from './components/Home/ApartmentGrid'
+// import Banner from './components/Home/Banner'
 import NavBar from "./components/NavBar"
+import Home from './pages/Home'
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Banner />
+      <Home />
+      {/* <Banner />
+      <ApartmentGrid /> */}
     </div>
   )
 }
