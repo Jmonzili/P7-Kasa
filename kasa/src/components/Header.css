@@ -1,12 +1,16 @@
-.navbar {
+.header {
   display: flex;
   align-items: center;
-  padding: 0.2rem;
+  padding: 1rem;
   color: var(--red);
   font-weight: 500;
-  gap: 2rem;
 }
 
-.navbar_logo {
+.header_logo {
   margin-right: auto;
+}
+
+.header_nav {
+  display: flex;
+  gap: 2rem;
 }

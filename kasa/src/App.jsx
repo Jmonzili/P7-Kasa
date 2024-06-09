@@ -1,17 +1,15 @@
 import './App.css'
-// import ApartmentGrid from './components/Home/ApartmentGrid'
-// import Banner from './components/Home/Banner'
-import NavBar from "./components/NavBar"
+import Footer from './components/Footer'
+import Header from './components/Header'
 import Home from './pages/Home'
 
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <Header />
       <Home />
-      {/* <Banner />
-      <ApartmentGrid /> */}
+      <Footer />
     </div>
   )
 }
