@@ -11,10 +11,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-  {
-    path: "/hello",
-    element: <h1>Oui mon Joky!!</h1>,
-  },
+  // {
+  //   path: "/hello",
+  //   element: <h1>Oui mon Joky!!</h1>,
+  // },
 
 ]);
 
