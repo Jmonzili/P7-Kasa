@@ -1,0 +1,10 @@
+@use "../style/variables" as *;
+
+.footer {
+  display: grid;
+  background-color: $footer-background;
+  color: $color-tertiary;
+  padding: 1.2rem;
+  place-items: center;
+  min-height: 100px;
+}

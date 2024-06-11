@@ -1,3 +1,5 @@
+@use "../../style/variables" as *; 
+
 .banner {
   position: relative;
   background-position: center;
@@ -10,19 +12,17 @@
   border-radius: 2rem;
   display: grid;
   place-items: center;
-  color: white;
+  color: $color-tertiary;
   margin-bottom: 2rem;
-}
-
-.banner::before {
-  position: absolute;
-  content: "";
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 2rem;
-}
-
-.banner h1 {
-  font-weight: 500;
-  z-index: 1;
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: $banner-background;
+    border-radius: 2rem;
+  }
+  & h1 {
+    font-weight: 500;
+    z-index: 1;
+  }
 }

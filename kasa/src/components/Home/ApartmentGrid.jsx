@@ -1,16 +1,16 @@
 // import React from 'react'
-import Apartment from './Apartment'
-import './ApartmentGrid.css'
+import ApartmentCard from './ApartmentCard'
+import './ApartmentGrid.scss'
 
 function ApartmentGrid() {
   return (
     <div className='grid'>
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
     </div>
   )
 }

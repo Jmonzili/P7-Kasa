@@ -1,0 +1,23 @@
+@use "../style/variables" as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 500;
+  & &_logo {
+    margin-right: auto;
+  }
+  & &_nav {
+    display: flex;
+    gap: 2rem;
+    & a {
+      color: $color-primary;
+      text-decoration: none;
+      &.active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
